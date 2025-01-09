@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Job Application</legend>
+        <form action="https://formspree.io/f/xdkkprpn" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="father-name">Father Name:</label>
+            <input type="text" name="father-name" id="father-name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="mobile-no">Mobile No.:</label>
+            <input type="tel" name="mobile-no" id="mobile-no" required>
+            <br>
+            <p>Which position are you applying for?</p>
+            <input type="radio" name="job-role" id="web-dev" value="Web Development">
+            <label for="web-dev">Web Development</label>
+            <br>
+            <input type="radio" name="job-role" id="android-dev" value="Android Development">
+            <label for="android-dev">Android Development</label>
+            <br>
+            <input type="submit" value="Submit Application">
+        </form>
+    </fieldset>
+</body>
+</html>
